@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Responsive Design: Web design in the post-PSD era</title>
+		<title>Blurred Lines: A workflow for responsive design</title>
 
-		<meta name="description" content="Presentation for WordCamp San Diego 2015">
+		<meta name="description" content="Presentation for WordCamp Orange County 2015">
 		<meta name="author" content="Natalie MacLees">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -44,8 +44,8 @@
 					<div>
 						<i class="icon icon-h icon-lg"></i>
 					</div>
-					<h1 style="margin-bottom:0;">Responsive Design</h1>
-					<h4>Web design in the post-PSD era</h4>
+					<h1 style="margin-bottom:0;">Blurred Lines</h1>
+					<h4>A workflow for responsive design</h4>
 					<p>
 						Created by <a href="http://nataliemac.com">Natalie MacLees</a> / <i class="icon icon-s"></i><a href="http://twitter.com/nataliemac">@nataliemac</a>
 					</p>
@@ -98,24 +98,6 @@
 					</aside>
 				</section>
 
-				<section data-background-video="video/ResponsiveArchitecture.mp4" data-background-color="#000000">
-					<div style="margin:0;background:rgba(0,0,0,0.4);"><i class="icon icon-exc icon-lg"></i></div>
-					<h1 style="margin:0;background:rgba(0,0,0,0.5);">Responsive Architecture</h1>
-					<aside class="notes">
-						* Respond to temperature, sunlight, people inside or nearby<br/>
-						* Shading materials to keep things cool, open to ventilate<br/>
-						* Floors rotate
-						* Smart glass
-					</aside>
-				</section>
-
-				<section data-background-color="#be0902" data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
-					<blockquote class="long">
-						<p>&ldquo;Anything that’s fixed and unresponsive isn’t web design anymore&hellip;Responsive Web Design is web design, done right.&rdquo;</p>
-						<cite><i class="icon icon-5"></i> <a href="https://the-pastry-box-project.net/andrew-clarke/2012-january-3">Andrew Clarke</a></cite>
-					</blockquote>
-				</section>
-
 				<section data-background-color="#234469" data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
 					<div><i class="icon icon-lg icon-n"></i></div>
 					<h1>There are no experts</h1>
@@ -123,6 +105,19 @@
 						* Brand new to everyone<br/>
 						* We're all working together<br/>
 						* We can all shape the future of the web
+					</aside>
+				</section>
+
+				<section data-background-color='#9e0d0d' data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
+					<h1>Designers</h1>
+					<h2>vs.</h2>
+					<h1>Developers</h1>
+					<aside class="notes">
+						* Not a new topic <br>
+						* Design tasks - color, type <br>
+						* Dev tasks - Sass vs CSS, framework <br>
+						* Color change on hover <br>
+						* But - animation, duration, easing
 					</aside>
 				</section>
 
@@ -163,22 +158,14 @@
 					</aside>
 				</section>
 
-				<section data-background-color="#9e0d0d" data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
-					<blockquote class="longer">
-						<p>&ldquo;One Web means making, as far as is reasonable, the same information and services available to users irrespective of the device they are using&hellip;&rdquo;</p>
-					</blockquote>
-				</section>
-
-				<section data-background-color="#9e0d0d" data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
-					<blockquote class="longer">
-						<p>&ldquo;&hellip;However, it does not mean that exactly the same information is available in exactly the same representation across all devices.&rdquo;</p>
-						<cite><i class="icon icon-5"></i> <a href="http://www.w3.org/TR/mobile-bp/#OneWeb" target="_blank">W3C</a></cite>
-					</blockquote>
+				<section data-background-color="#8d4f2d" data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
+					<div><i class="icon icon-lg icon-g"></i></div>
+					<h1>What is responsive?</h1>
 					<aside class="notes">
 						* Website that responds not just to screen size<br/>
 						* Also resolution, scripting ability, colors, input mechanisms, and device capability<br/>
 						* Respects each user's preferences and abilities<br/>
-						* Whole new way of building websites, need flexible process
+						* Whole new way of building websites, need flexible process <br>
 					</aside>
 				</section>
 
@@ -191,8 +178,8 @@
 							* Championed by Luke W et al<br/>
 							* Web traffic from mobile > other web traffic<br/>
 							* Forces focus<br/>
-							* I think of simplest first<br/>
-							* Add on for abilities
+							* Emphasizes the wrong thing<br/>
+							* Instead focus on content first
 						</aside>
 					</h1>
 				</section>
@@ -204,13 +191,27 @@
 						* Responsive = progressively enhanced<br/>
 						* HTML = start<br/>
 						* styles<br/>
-						* JS
-						* End of theory, talk about practice
+						* JS <br>
+						* Andy Clarke - well-designed, technically proficient, easy to use
+					</aside>
+				</section>
+
+				<section data-background-color="#3faa9f" data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
+					<img src="images/psdgrid.jpg" height="560" width="560" alt="PSD Grid Template">
+					<aside class="notes">
+						* Go back to IE6/IE7 days, 1024 monitors <br>
+						* Why 960 anyway?<br/>
+						* Sub-pixel rendering <br>
+						* Evenly divide by 2, 3, 4, 5, 6, 8, 10, 12, 15, 16, 20, 24
 					</aside>
 				</section>
 
 				<section data-background-color="#234469" data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
 					<img src="images/960workflow-nocontent.png" height="684" width="1117" alt="Typical 960 Workflow">
+					<aside class="notes">
+						* Step through this process briefly <br>
+						* Similar to the print process it came from
+					</aside>
 				</section>
 
 				<section data-background-color="#234469" data-background-image="images/dark-stripes-light.png" data-background-repeat="repeat" data-background-size="auto">
@@ -229,8 +230,8 @@
 					<div><i class="icon icon-lg icon-q"></i></div>
 					<h1>Responsive Workflow</h1>
 					<aside class="notes">
-						* No experts<br/>
-						* Process I'm experimenting with
+						* Process I'm experimenting with <br>
+						* No single right answer
 					</aside>
 				</section>
 
@@ -276,7 +277,8 @@
 					<aside class="notes">
 						* Stay focused on what pages do, not what they look like<br/>
 						* Phase 1 complete, move on to develop-y design work<br/>
-						* Develop-y because much is done in code
+						* Develop-y because much is done in code <br>
+						* END OF PHASE 1
 					</aside>
 				</section>
 
@@ -346,7 +348,7 @@
 					<aside class="notes">
 						* Assemble elements into modules<br/>
 						* Adjust any awkwardness<br/>
-						* Somewhere around here the design-y development work begins
+						* END-ISH OF PHASE 2??
 					</aside>
 				</section>
 
@@ -422,6 +424,7 @@
 					<aside class="notes">
 						* Legacy - content only<br/>
 						* Never have been, never will be in print<br/>
+						* Behaving like fluid is a defect or liability <br>
 						* Web's greatest strength = fluidity<br/>
 						* 56 years, M.Davis, WP embraced legacy<br/>
 						* Not just the sites we build, but our process
